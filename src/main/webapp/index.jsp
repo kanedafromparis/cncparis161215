@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
         <title>Fake Data Generator
         </title>
-        <meta http-equiv="refresh" content="5" >
+        <meta http-equiv="refresh" content="10" >
 
     </head>
 
@@ -28,7 +28,7 @@
             %>
         <table>
             <tr>
-                <td valign="top" ><img src="images/logo_cncf_0003.png" /></td>
+                <td valign="top" ><img src="images/logo_cncf_0001.png" /></td>
                 <td><p><a href="api/data/v1" target="_blank">Get to the Json Api<a></p>
                                 <p> 
                                     <%    List<FDGCompany> compLst = new FakeDataGenerator().generateFakeData();
