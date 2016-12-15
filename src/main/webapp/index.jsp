@@ -29,31 +29,9 @@
         <table>
             <tr>
                 <td valign="top" ><img src="images/logo_cncf_0001.png" /></td>
-                <td><p><a href="api/data/v1" target="_blank">Get to the Json Api<a></p>
-                                <p> 
-                                    <%    List<FDGCompany> compLst = new FakeDataGenerator().generateFakeData();
-                                        //generateFakeData(String dir, Integer deep, Boolean saveToDtb, Boolean saveToFile)
-                                        //out.println(new FakeDataGenerator().generateFakeData());
-                                        Iterator<FDGCompany> iterator = compLst.iterator();
-                                        while (iterator.hasNext()) {
-                                            FDGCompany next = iterator.next();
-
-                                            out.println("<b>" + next.getName() + "</b><br/>");
-                                            out.println("<i>" + next.getNote() + "</i><br/>");
-                                            out.println("<ul>");
-                                            
-                                            Iterator<FDGPersonne> iterator1 = next.getFKPersonneLst().iterator();
-                                            while (iterator1.hasNext()) {
-                                                FDGPersonne person = iterator1.next();
-                                                out.println("<li>" + person.getFirstname() + " " + person.getLastname() + "</li>");
-
-                                            }
-                                            out.println("</ul>");
-
-                                        }
-                                    %>
-                                <c:
-                                    </p></td>
+                <td valign="top"><p><img src="images/buffer-loading.gif" />
+                    <a href="api/data/v1" target="_blank">Get to the Json Api<a></p>
+                                </td>
                                     </tr>
                                     </table>
                                     </p>
